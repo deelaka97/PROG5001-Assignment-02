@@ -1,0 +1,38 @@
+=================== Pseudo Code for F3 ===================
+
+Read threshold from user input
+   
+For each student in students
+    If student's total marks < threshold
+        Display student's name, ID, and total marks
+End For
+
+==========================================================
+
+
+=================== Pseudo Code for F4 ===================
+
+Function printHighestAndLowestMarks()
+
+# Sort the students by their total marks (Using bubble sort)
+n = length of students
+    
+For i = 0 to n - 1
+    For j = 0 to n - 1 - i
+        If students[j].getTotalMarks() < students[j + 1].getTotalMarks()
+            Swap students[j] and students[j + 1]
+        End If
+    End For
+End For
+    
+# Print top 5 students
+For i = 0 to 5 
+    Display students[i]
+End For
+    
+# Print bottom 5 students
+For i = 0 to 5
+    Display students[students.length - i - 1]
+End For
+
+==========================================================
