@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.target=Student
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Student\ here.\r\n\r\n\ @author\ (your\ name)\r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=line
+comment1.target=Student(java.lang.String)
+comment1.text=\r\n\ Constructor\ for\ Student\ from\ a\ line\ from\ stats.txt\ file\r\n\ @param\ line\ line\ from\ stats.txt\ file\r\n\ @return\ Student\ object\r\n
+comment2.params=
+comment2.target=int\ getTotalMarks()
+comment2.text=\r\n\ Calculates\ the\ total\ marks\ of\ the\ student\r\n\ @return\ total\ marks\ of\ the\ student\r\n
+comment3.params=
+comment3.target=java.lang.String\ getName()
+comment4.params=
+comment4.target=java.lang.String\ getId()
+comment5.params=
+comment5.target=java.lang.String\ toString()
+numComments=6
